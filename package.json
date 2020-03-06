@@ -1,8 +1,8 @@
 {
-  "name": "Redinsgo",
+  "name": "redinsgo",
   "version": "1.0.0",
   "description": "Jogo Bingo NodeJs e Redis",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node ./app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/mfmorais/redis#readme",
   "dependencies": {
-    "redis": "^3.0.2"
+    "ioredis": "^4.16.0"
   }
 }
